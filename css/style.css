@@ -2,24 +2,24 @@
     margin: 0;
     padding: 0;
 }
-
 .container {
     max-width: 1140px;
     margin: 0 auto;
 }
-
 body {
     font-family: "Raleway", sans-serif;
     background-color: #F5F8FF;
     color: #252432;
 }
-
+a{
+    text-decoration: none;
+}
 /* Nav Section  */
 .logo {
     font-family: "Inter", sans-serif;
     color: #4E47FF;
     font-size: 34px;
-    font-weight: 800;
+    font-weight: 900;
     text-decoration: none;
 }
 .nav_main{
@@ -222,3 +222,27 @@ textarea{
     box-sizing: border-box;
 }
 /* Footer */
+footer{
+    background: white;
+    padding: 100px 0;
+    text-align: center;
+}
+footer h2{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+footer p{
+    color: #8987A1;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 24px;
+}
+footer a{
+    color: #8987A1;
+}

@@ -10,6 +10,8 @@
 
 body {
     font-family: "Raleway", sans-serif;
+    background-color: #F5F8FF;
+    color: #252432;
 }
 
 /* Nav Section  */
@@ -58,4 +60,26 @@ header{
     width: 80%;
     margin: 0 auto;
     padding-bottom: 37px;
+}
+/*  Action Section */
+#action_section{
+    margin-top: 116px;
+}
+.action_content h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action_content p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0;
+    padding-right: 240px;
+}
+.action_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action_image img{
+    border-radius: 48px;
 }

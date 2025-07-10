@@ -159,9 +159,7 @@ header{
     gap: 20px;
 }
 /* Ready to focus better */
-#focus{
-    margin-bottom: 92px;
-}
+
 .focus_head{
     background: white;
     border-radius: 14px;
@@ -184,3 +182,43 @@ header{
     border-radius: 48px;
     margin-top: 20px;
 }
+/* Contact */
+.contact_main{
+    padding: 71px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.contact_left,.contact_form{
+    width: 50%;
+}
+.contact_left h2{
+    font-size: 97px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+input,textarea{
+    width: 100%;
+    display: block;
+    background: white;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 20px;
+}
+textarea{
+    height: 135px;
+}
+.contact_form button{
+    display: block;
+    width: 100%;
+}
+.contact_form * {
+    box-sizing: border-box;
+}
+/* Footer */
